@@ -46,7 +46,7 @@ def Reciver(client, key):
             byte_data = client.recv(1024)
             dec_data = MSG_ENC.AES_256_DECRYPT(key, byte_data)
             str_dec_data = str(dec_data, 'utf-8')
-            str_dec_data = str_dec_data.split("<IHA089>")
+            str_dec_data = str_dec_data.split("<ZEUS>")
             name = str_dec_data[0]
             message = str_dec_data[1]
             ll = len(sender_data)
