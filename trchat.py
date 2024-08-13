@@ -6,7 +6,7 @@ def home_logo():
              ##        ########    ##       ##    ########
            ##          ##          ##       ##           ##           
          ##            ##          ##       ##           ##
-        ############   #########   ###########    ########
+        ############   #########    #########     ########
     
 ZEUS: Navigating the Digital Realm with Code and Security - Where Programming Insights Meet Cyber Vigilance.
     """)
