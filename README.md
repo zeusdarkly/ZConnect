@@ -58,3 +58,5 @@ Aşağıda tool'un farklı bölümlerini gösteren ekran görüntüleri bulunmak
 
 2. **Tool Arayüzü:**
    ![Tool Başlatma Ekran Görüntüsü](https://github.com/user-attachments/assets/1a70c6b9-c444-4026-9836-f8fa3d19a149)
+
+   
