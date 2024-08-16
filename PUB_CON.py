@@ -14,7 +14,7 @@ def CRT_PUB_CON():
     publicthread.start()
     sleep(1)
     
-    get_data_url = "https://d759-88-231-61-89.ngrok-free.app/api/tunnels"
+    get_data_url = ""
     try:
         get_data_req = requests.get(get_data_url)
         if get_data_req.status_code == 200:
