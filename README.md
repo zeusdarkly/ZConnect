@@ -33,9 +33,9 @@ TCP bağlantısı için kredi kartı doğrulaması yapmanız gerekebilir. Kredi 
 1. **Ngrok URL Ekleme:**
    - `PUB_CON.py` dosyasının 17. satırında bulunan `get_data_url = ""` kısmındaki parantez içine, Ngrok'un size sağladığı URL'yi girin.
    
-   ```python
-   get_data_url = "ngrok_url"
-   ```
+     ```python
+     get_data_url = "ngrok_url"
+     ```
 
 ### 4. Tool'u Başlatma
 
