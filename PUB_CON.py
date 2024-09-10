@@ -14,8 +14,9 @@ def CRT_PUB_CON():
     publicthread.start()
     sleep(1)
     
-    # Ngrok'un size sağladığı URL'yi girin.
-    get_data_url = ""
+    # Kullanıcıdan ngrok URL'sini al
+    get_data_url = input("Lütfen ngrok URL'nizi girin: ")
+    
     try:
         get_data_req = requests.get(get_data_url)
         if get_data_req.status_code == 200:
