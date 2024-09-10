@@ -1,4 +1,4 @@
-# Zeus Haberlesme Sistemi
+# ZConnect
 
 Kendi sunucunuzu ve istemcinizi kullanarak dünyanın her yerinden herkesle sohbet edin.
 
