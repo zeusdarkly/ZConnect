@@ -21,7 +21,7 @@ def CRT_PUB_CON():
             data = get_data_req.text
             json_data = json.loads(data)
             public_url = json_data['tunnels'][0]['public_url']
-            # Ngrok URL'sini doğrudan kullan
+            
             return public_url
         else:
             print("Failed to create public connection...")
