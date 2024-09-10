@@ -4,10 +4,6 @@ Kendi sunucunuzu ve istemcinizi kullanarak dünyanın her yerinden herkesle sohb
 
 ## Kurulum ve Başlangıç
 
-### Not:
-TCP bağlantısı için kredi kartı doğrulaması yapmanız gerekebilir. Kredi kartı doğrulaması için [Ngrok'un ödeme sayfasını](https://dashboard.ngrok.com/billing) ziyaret edebilirsiniz.
-
-
 ### 1. Ngrok Hesabı Oluşturma ve Authtoken Alma
 
 1. **Ngrok Hesabı Oluşturun:**
@@ -33,7 +29,7 @@ TCP bağlantısı için kredi kartı doğrulaması yapmanız gerekebilir. Kredi 
 1. **Tool'u Başlatın:**
    - Terminale şu komutu yazın:
      ```bash
-     python3 trchat.py
+     python3 zeus.py
      ```
    - Bu komut, tool'unuzu başlatacaktır.
 
