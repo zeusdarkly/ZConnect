@@ -46,7 +46,7 @@ def setup_ngrok():
     cmd = "./ngrok config add-authtoken {}".format(token)
     os.system(cmd)
     print("Installation success")
-    print("type `python3 trchat.py` to activate this tool")
+    print("type `python3 zeus.py` to activate this tool")
 
 setup_library()
 install_ngrok()
