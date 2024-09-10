@@ -6,7 +6,7 @@ import sys
 from time import sleep
 
 def create_public_connection():
-    command = "./ngrok tcp 8089"
+    command = "./ngrok http 8089"
     subprocess.run(command, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 def CRT_PUB_CON():
