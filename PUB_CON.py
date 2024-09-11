@@ -15,7 +15,7 @@ def CRT_PUB_CON():
     sleep(1)
     
     # Kullanıcıdan ngrok URL'sini al
-    get_data_url = input("Lütfen ngrok URL'nizi girin: ").strip()
+    get_data_url = input("Lütfen ngrok URL'nizi girin:").strip()
     
     try:
         get_data_req = requests.get(get_data_url)
