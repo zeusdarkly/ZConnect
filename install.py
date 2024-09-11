@@ -42,7 +42,7 @@ def install_ngrok():
 
 def setup_ngrok():
     print("Signup on this(https://dashboard.ngrok.com/signup) page and paste authtoken")
-    token = input("Enter ngrok token ::: ")
+    token = input("Enter ngrok token ::: ").strip()
     cmd = "./ngrok config add-authtoken {}".format(token)
     os.system(cmd)
     print("Installation success")
